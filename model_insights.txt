@@ -1,0 +1,19 @@
+TELCO CUSTOMER CHURN - MODEL INSIGHTS
+========================================
+
+Best Model: XGBoost
+AUC-ROC: 0.840 | F1 (Churn): 0.58
+
+Top 5 Features:
+                       Feature  Importance
+   InternetService_Fiber optic    0.193426
+             Contract_One year    0.190598
+             Contract_Two year    0.190441
+            InternetService_No    0.081226
+PaymentMethod_Electronic check    0.073298
+
+Recommendations:
+- Offer retention incentives to month-to-month customers.
+- Target fiber optic users with loyalty offers.
+- Encourage switching from electronic checks to automatic payments.
+- Focus on early engagement for new/low-charge customers.

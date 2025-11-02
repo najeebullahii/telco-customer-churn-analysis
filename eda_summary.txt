@@ -1,0 +1,2 @@
+Churn Rate: 26.54%
+Key churn drivers: Short tenure, month-to-month contracts, fiber optic internet, electronic check payments.
