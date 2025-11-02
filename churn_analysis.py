@@ -314,13 +314,13 @@ importance_df = (
 )
 print("\nTop 5 Features Driving Churn:")
 print(importance_df)
-# 3. Derive Simple Insights
+# 3. Deriving Simple Insights
 print("\nKey Insights:")
 print("- Contract type and internet service are the most influential churn drivers.")
 print("- Customers on month-to-month contracts and those using electronic checks are at higher churn risk.")
 print("- Long-term contracts generally reduce churn likelihood.")
 print("- Fiber optic internet users show a higher tendency to churn compared to DSL or no internet.")
-# 4. Save Insights to Text File
+# 4. SavingnInsights to Text File
 insights_path = os.path.join(project_dir, "model_insights.txt")
 with open(insights_path, 'w') as f:
     f.write("TELCO CUSTOMER CHURN - MODEL INSIGHTS\n")
@@ -335,4 +335,5 @@ with open(insights_path, 'w') as f:
     f.write("- Encourage switching from electronic checks to automatic payments.\n")
     f.write("- Focus on early engagement for new/low-charge customers.\n")
 print(f"\nInsights saved to: {insights_path}")
+
 print("Model interpretation complete!")
