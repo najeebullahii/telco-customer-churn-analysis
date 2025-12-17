@@ -1,6 +1,6 @@
 # 📊 Telco Customer Churn Analysis 🚀
 
-![Churn Distribution Banner](churn_distribution.png) <!-- Embed your main image at top for eye-catch -->
+![Churn Distribution Banner](images/churn_distribution.png) <!-- Embed your main image at top for eye-catch -->
 
 Welcome to my Telco Customer Churn Prediction project! As a data analyst, I built this to predict customer churn using Python and machine learning. It's beginner-friendly, insightful, and ready to impress employers. Check out the code, visuals, and insights below!
 
@@ -18,15 +18,15 @@ Welcome to my Telco Customer Churn Prediction project! As a data analyst, I buil
 🛠️ **Step-by-Step Approach**:
 1. **Data Loading & Cleaning**: Loaded CSV, handled missing values in TotalCharges, dropped duplicates/customerID.
 2. **Exploratory Data Analysis (EDA)**: Visualized distributions, correlations, and categorical impacts using Seaborn/Matplotlib.
-   - Churn by Tenure: ![Tenure Group Churn](tenure_group_churn.png)
-   - Numerical Features: ![Numerical Features](numerical_features.png)
-   - Correlation: ![Correlation Matrix](correlation_matrix.png)
-   - Categorical Drivers: ![Categorical Features](categorical_features.png)
+   - Churn by Tenure: ![Tenure Group Churn](images/tenure_group_churn.png)
+   - Numerical Features: ![Numerical Features](images/numerical_features.png)
+   - Correlation: ![Correlation Matrix](images/correlation_matrix.png)
+   - Categorical Drivers: ![Categorical Features](images/categorical_features.png)
 3. **Feature Engineering**: Created `tenure_group`, `total_services`; encoded categoricals; scaled numerics.
 4. **Modeling**: Trained Logistic Regression, Random Forest, XGBoost with GridSearchCV. Evaluated with F1, AUC-ROC, confusion matrices.
-   - ROC Curves: ![ROC Curves](roc_curves.png)
-   - Confusion Matrices: ![Confusion Matrices](confusion_matrices.png)
-   - Feature Importance: ![Feature Importance](feature_importance.png)
+   - ROC Curves: ![ROC Curves](images/roc_curves.png)
+   - Confusion Matrices: ![Confusion Matrices](images/confusion_matrices.png)
+   - Feature Importance: ![Feature Importance](images/feature_importance.png)
 5. **Interpretation**: Derived insights from top features (e.g., Contract type).
 
 **Tools Used**: Python (Pandas, Scikit-learn, XGBoost), Jupyter/Notebook for interactivity.
