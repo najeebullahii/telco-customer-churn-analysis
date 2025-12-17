@@ -1,4 +1,4 @@
-# 📊 Telco Customer Churn Analysis 
+# 📊 Telco Customer Churn Prediction
 *A data-driven project focused on understanding and predicting customer churn in the telecom industry.*
 
 
