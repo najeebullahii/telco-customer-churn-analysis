@@ -60,7 +60,7 @@ This project explores customer churn in the telecom industry using real-world da
 
 ## How to Run This Project
 1. Clone repo: `git clone https://github.com/najeebullahii/telco-customer-churn-analysis.git`
-2. Install dependencies: `pip install -r requirements.txt` (create this file with your libs: pandas, seaborn, etc.)
+2. Install dependencies: `pip install -r requirements.txt`
 3. Run: `python churn_analysis.py`
 
 ## License
