@@ -4,15 +4,15 @@
 
 This project explores customer churn in the telecom industry using real-world data. As a data analyst, I used Python and machine learning to understand why customers leave and how businesses can reduce churn using data-driven decisions.
 ## Executive Summary
-🔍 **Overview**: Analyzed a dataset of 7,043 Telco customers to identify churn drivers and build predictive models. Churn rate: 26.54%. Used EDA, feature engineering, and models like XGBoost (AUC: 0.845) to provide actionable recommendations.
+ **Overview**: Analyzed a dataset of 7,043 Telco customers to identify churn drivers and build predictive models. Churn rate: 26.54%. Used EDA, feature engineering, and models like XGBoost (AUC: 0.845) to provide actionable recommendations.
 
 **Key Wins**: Identified high-risk customer groups, such as month-to-month contract users, enabling targeted retention strategies.
 ## Business Problem
-💼 **Challenge**: Telco companies lose revenue from customer churn. Why do customers leave? How can we predict and prevent it?
+ **Challenge**: Telco companies lose revenue from customer churn. Why do customers leave? How can we predict and prevent it?
 
 **Goal**: Use historical customer data to identify churn drivers and predict which customers are most likely to leave, so the business can act early.
 ## Methodology
-🛠️ **Step-by-Step Approach**:
+ **Step-by-Step Approach**:
 1. **Data Loading & Cleaning**: Loaded CSV, handled missing values in TotalCharges, dropped duplicates/customerID.
 2. ### Exploratory Data Analysis (EDA)
 
@@ -45,12 +45,12 @@ This project explores customer churn in the telecom industry using real-world da
 - **Tools**: Python, GitHub, Markdown for portfolios.
 
 ## Results and Business Recommendations
-🏆 **Results**:
+ **Results**:
 - Best Model: XGBoost (AUC: 0.845, F1 for Churn: 0.58).
 - Top Features: Contract type, Internet Service, Payment Method.
 
   
-**Recommendations** 🔥:
+**Recommendations** :
 - Offer discounts to month-to-month customers to encourage longer contracts.
 - Target fiber optic users with loyalty perks (they churn more).
 - Promote auto-payments over electronic checks to reduce churn.
